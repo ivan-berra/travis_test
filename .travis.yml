@@ -3,5 +3,8 @@ node_js:
   - "iojs"
   - "7"
   
-  before_install:
-  - npm i -g npm@version-number
+install:  
+  - npm install
+
+script:
+    - npm test
